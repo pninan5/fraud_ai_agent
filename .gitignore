@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (DO NOT PUSH)
+data/raw/
+data/parquet/
+data/*.duckdb
+data/**/*.csv
+data/**/*.parquet
+
+# Chroma / vector DB
+**/fraud_ai_agent_chroma/
+**/chroma/
+**/*.sqlite3
+
+# Models / artifacts
+models/
+artifacts/
+*.pkl
+*.joblib
+
+# Logs
+*.log
