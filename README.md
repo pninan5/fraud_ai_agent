@@ -132,7 +132,7 @@ python -m src.batch_eval --data data/raw --n 2000 --seed 42 --chroma_path <YOUR_
 
 ## Deploy options
 
-### Option A: GitHub only (recommended for recruiters)
+### Option A: GitHub only (recommended)
 Yes. A clean GitHub repo with:
 - source code
 - README with steps
@@ -151,8 +151,7 @@ They still need to provide the dataset (mounted volume) or use your small demo m
 
 ---
 
-## Improvements you can add next
-
+## Improvements suggestions
 - **Probability calibration** (Platt/Isotonic) and threshold tuning by cost
 - **Drift monitoring** and data quality checks
 - **Active learning**: reviewer feedback loop to improve the model
@@ -162,6 +161,3 @@ They still need to provide the dataset (mounted volume) or use your small demo m
 - **Security**: auth layer for the UI, PII redaction in reports
 
 ---
-
-## License
-Choose a license (MIT is common) and add it as `LICENSE`.
