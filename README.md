@@ -147,7 +147,7 @@ Works great for small demos, but this dataset is too large for typical free host
 
 ### Option C: Docker (easy one command run)
 Yes. This repo includes a Dockerfile. Users can build and run the app in a container.
-They still need to provide the dataset (mounted volume) or use your small demo mode.
+They still need to provide the dataset (mounted volume) or use the small demo mode.
 
 ---
 
