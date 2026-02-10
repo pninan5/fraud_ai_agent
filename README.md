@@ -132,22 +132,14 @@ python -m src.batch_eval --data data/raw --n 2000 --seed 42 --chroma_path <YOUR_
 
 ## Deploy options
 
-### Option A: GitHub only (recommended)
-Yes. A clean GitHub repo with:
-- source code
-- README with steps
-- requirements.txt
-- sample commands
-is usually enough for reviewers to reproduce the project.
-
-### Option B: Streamlit Community Cloud
-Works great for small demos, but this dataset is too large for typical free hosting limits. For Streamlit Cloud, consider:
+### Streamlit Community Cloud
+- For small demos, but this dataset is too large for typical free hosting limits. For Streamlit Cloud, consider:
 - shipping a small sample dataset (few thousand rows) for demo mode, or
 - using precomputed artifacts hosted in GitHub Releases / external storage.
 
-### Option C: Docker (easy one command run)
+### Docker (easy one command run)
 Yes. This repo includes a Dockerfile. Users can build and run the app in a container.
-They still need to provide the dataset (mounted volume) or use the small demo mode.
+We still need to provide the dataset (mounted volume) or use the small demo mode.
 
 ---
 
