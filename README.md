@@ -138,18 +138,17 @@ python -m src.batch_eval --data data/raw --n 2000 --seed 42 --chroma_path <YOUR_
 - using precomputed artifacts hosted in GitHub Releases / external storage.
 
 ### Docker (easy one command run)
-Yes. This repo includes a Dockerfile. Users can build and run the app in a container.
+This repo includes a Dockerfile. Users can build and run the app in a container.
 We still need to provide the dataset (mounted volume) or use the small demo mode.
 
 ---
 
 ## Improvements suggestions
-- **Probability calibration** (Platt/Isotonic) and threshold tuning by cost
+- **Probability calibration**  threshold tuning by cost
 - **Drift monitoring** and data quality checks
 - **Active learning**: reviewer feedback loop to improve the model
 - **Better retrieval**: smarter embeddings, per-segment indices, temporal weighting
-- **Policy optimization**: learn a policy from labels + review outcomes
 - **Unit tests + CI** (GitHub Actions) and more robust type checking
-- **Security**: auth layer for the UI, PII redaction in reports
+- **Security**: auth layer for the UIs
 
 ---
